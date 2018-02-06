@@ -1,0 +1,31 @@
+﻿@using TestWebSite.Models
+@using TestWebSite.DAL
+
+@{
+    ViewBag.Title = "Subscribers";
+}
+
+@section scripts{
+    <script src="~/Scripts/Views/Home/Subscribers.js"></script>
+}
+
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+<section class="body-content">
+    <div>
+        <table id="subscriberTable">
+            <thead>
+                <tr>
+                    <th>Fullname</th>
+                    <th>Email</th>
+                    <th>SMS</th>
+                    <th>Fax</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</section>
+
+
+
